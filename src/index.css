@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  box-sizing: border-box;
+  font-family: var(--poppins-font-family);
+}
+
+/* Estilo basico*/
+::-moz-selection {
+  background: var(--main-color);
+  color: var(--text-color);
+}
+::selection {
+  background: var(--main-color);
+  color: var(--text-color);
+}
+
+section {
+  padding: 4rem 0 3rem;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--body-color);
+}
+
+.container {
+  max-width: 1060px;
+  margin: auto;
+  width: 100%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-indent {
+  text-indent: 1rem;
+}
+
+.style-color {
+  color: white;
+}
+
+iframe {
+  width: 38rem;
+  height: 21.6rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */
